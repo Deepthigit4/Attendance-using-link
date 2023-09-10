@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Attendance Management System</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Class: Math 101</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Attendance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>John Doe</td>
+                        <td><input type="checkbox" class="attendance-checkbox" data-student-id="001"></td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Jane Smith</td>
+                        <td><input type="checkbox" class="attendance-checkbox" data-student-id="002"></td>
+                    </tr>
+                    <!-- Add more student rows here -->
+                </tbody>
+            </table>
+            <button id="submit-attendance">Submit Attendance</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
